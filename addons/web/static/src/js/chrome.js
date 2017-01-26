@@ -1046,7 +1046,7 @@ instance.web.UserMenu =  instance.web.Widget.extend({
         this.update_promise = this.update_promise.then(fct, fct);
     },
     on_menu_help: function() {
-        window.open('http://help.odoo.com', '_blank');
+        window.open('http://tisspl.blogspot.com', '_blank');
     },
     on_menu_logout: function() {
         this.trigger('user_logout');
@@ -1075,10 +1075,10 @@ instance.web.UserMenu =  instance.web.Widget.extend({
                     state: JSON.stringify(state),
                     scope: 'userinfo',
                 };
-                instance.web.redirect('https://accounts.odoo.com/oauth2/auth?'+$.param(params));
+                instance.web.redirect('https://accounts.tisspl.blogpot.com/oauth2/auth?'+$.param(params));
             }).fail(function(result, ev){
                 ev.preventDefault();
-                instance.web.redirect('https://accounts.odoo.com/account');
+                instance.web.redirect('https://accounts.tisspl.blogspot.com/account');
             });
         }
     },
@@ -1195,7 +1195,7 @@ instance.web.WebClient = instance.web.Client.extend({
         this._current_state = null;
         this.menu_dm = new instance.web.DropMisordered();
         this.action_mutex = new $.Mutex();
-        this.set('title_part', {"zopenerp": "Odoo"});
+        this.set('title_part', {"zopenerp": "OperERP"});
     },
     start: function() {
         var self = this;
@@ -1547,10 +1547,10 @@ instance.web.embed = function (origin, dbname, login, key, action, options) {
 
 /* 
  * The Android/iPhone App is a JS/HTML app that launches the
- * Odoo webclient in an iframe, using the Cordova framework.
+ * OpenERP webclient in an iframe, using the Cordova framework.
  *
  * This class acts as a link between the webclient and the
- * Odoo Android/iPhone App implemented with cordova.
+ * OpenERP Android/iPhone App implemented with cordova.
  */
 instance.web.Cordova = instance.web.Class.extend({}, instance.web.PropertiesMixin, {
     init: function(parent) {
@@ -1562,7 +1562,7 @@ instance.web.Cordova = instance.web.Class.extend({}, instance.web.PropertiesMixi
         }, false);
 
     },
-    // odoo.send('foobar') in cordova will call messages.foobar()
+    // OpenERP.send('foobar') in cordova will call messages.foobar()
     messages: {
         // launch the POS !
         pos: function() {
