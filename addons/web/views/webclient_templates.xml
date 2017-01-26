@@ -362,7 +362,7 @@
     <template id="web.qunit_suite">
         <t t-call="web.layout">
             <t t-set="html_data" t-value="{'style': 'height: 100%;'}"/>
-            <t t-set="title">Odoo Web Tests</t>
+            <t t-set="title"> Web Tests</t>
             <t t-set="head">
                 <link type="text/css" rel="stylesheet" href="/web/static/lib/qunit/qunit-1.17.1.css"/>
                 <script type="text/javascript" src="/web/static/lib/qunit/qunit-1.17.1.js"></script>
@@ -487,7 +487,7 @@
         -->
         <t t-if="not debug">
             <script>
-                // Use Odoo PDFJS Loader, to avoid dynamic assets loading
+                // Use  PDFJS Loader, to avoid dynamic assets loading
                 PDFJS.workerSrc = '/web/static/lib/pdfjs/worker_loader_by_odoo.js';
                 PDFJS.disableWorker = true;
             </script>
