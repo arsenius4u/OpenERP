@@ -9,64 +9,64 @@ msgstr ""
 "Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-11-24 02:53+0000\n"
-"PO-Revision-Date: 2016-09-11 05:33+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Hindi (http://www.transifex.com/odoo/odoo-8/language/hi/)\n"
+"PO-Revision-Date: 2017-08-11 05:33+0000\n"
+"Last-Translator: Sanjay Singh\n"
+"Language-Team: Marathi (http://www.transifex.com/odoo/odoo-8/language/hi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: hi\n"
+"Language: mh\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: l10n_in_hr_payroll
 #: report:salary.detail.byyear:0
 msgid "E-mail Address"
-msgstr ""
+msgstr "ई-मेल पत्ता"
 
 #. module: l10n_in_hr_payroll
 #: field:payment.advice.report,employee_bank_no:0
 msgid "Employee Bank Account"
-msgstr ""
+msgstr "कर्मचारी बँकेचे खाते"
 
 #. module: l10n_in_hr_payroll
 #: view:payment.advice.report:0
 msgid "Payment Advices which are in draft state"
-msgstr ""
+msgstr "मसुदा स्थितीत असलेले देयक सूचना"
 
 #. module: l10n_in_hr_payroll
 #: report:salary.detail.byyear:0
 msgid "Title"
-msgstr ""
+msgstr "शीर्षक"
 
 #. module: l10n_in_hr_payroll
 #: report:payroll.advice:0
 msgid "Payment Advice from"
-msgstr ""
+msgstr "पासून भरणा सल्ला"
 
 #. module: l10n_in_hr_payroll
 #: model:ir.model,name:l10n_in_hr_payroll.model_yearly_salary_detail
 msgid "Hr Salary Employee By Category Report"
-msgstr ""
+msgstr "श्रेणी अहवालाद्वारे मानव संसाधन वेतन कर्मचारी "
 
 #. module: l10n_in_hr_payroll
 #: view:payslip.report:0
 msgid "Payslips which are paid"
-msgstr ""
+msgstr "देय असलेल्या पेझलिप्स"
 
 #. module: l10n_in_hr_payroll
 #: view:hr.payroll.advice:0 view:payment.advice.report:0 view:payslip.report:0
 msgid "Group By..."
-msgstr "द्वारा वर्गीकृत करें"
+msgstr "गटानुसार..."
 
 #. module: l10n_in_hr_payroll
 #: report:salary.detail.byyear:0
 msgid "Allowances with Basic:"
-msgstr ""
+msgstr "मूलभूत सह भत्ता:"
 
 #. module: l10n_in_hr_payroll
 #: view:payslip.report:0
 msgid "Payslips which are in done state"
-msgstr ""
+msgstr "पेझलिप्स जे पूर्ण केले आहेत"
 
 #. module: l10n_in_hr_payroll
 #: report:salary.detail.byyear:0
@@ -76,29 +76,29 @@ msgstr "विभाग"
 #. module: l10n_in_hr_payroll
 #: report:salary.detail.byyear:0
 msgid "Deductions:"
-msgstr ""
+msgstr "कपात"
 
 #. module: l10n_in_hr_payroll
 #: report:payroll.advice:0
 msgid "A/C no."
-msgstr ""
+msgstr "खाते क्रमांक"
 
 #. module: l10n_in_hr_payroll
 #: field:hr.contract,driver_salay:0
 msgid "Driver Salary"
-msgstr ""
+msgstr "चालक वेतन"
 
 #. module: l10n_in_hr_payroll
 #: model:ir.actions.act_window,name:l10n_in_hr_payroll.action_yearly_salary_detail
 #: model:ir.actions.report.xml,name:l10n_in_hr_payroll.yearly_salary
 #: model:ir.ui.menu,name:l10n_in_hr_payroll.menu_yearly_salary_detail
 msgid "Yearly Salary by Employee"
-msgstr ""
+msgstr "कर्मचार्याने वार्षिक वेतन"
 
 #. module: l10n_in_hr_payroll
 #: model:ir.actions.act_window,name:l10n_in_hr_payroll.act_hr_emp_payslip_list
 msgid "Payslips"
-msgstr ""
+msgstr "पेझलिप्स"
 
 #. module: l10n_in_hr_payroll
 #: selection:payment.advice.report,month:0 selection:payslip.report,month:0
@@ -111,47 +111,47 @@ msgstr "मार्च"
 #: field:payment.advice.report,company_id:0 view:payslip.report:0
 #: field:payslip.report,company_id:0
 msgid "Company"
-msgstr "संस्था"
+msgstr "कंपनी"
 
 #. module: l10n_in_hr_payroll
 #: report:payroll.advice:0
 msgid "The Manager"
-msgstr ""
+msgstr "व्यवस्थापक"
 
 #. module: l10n_in_hr_payroll
 #: view:hr.payroll.advice:0
 msgid "Letter Details"
-msgstr ""
+msgstr "पत्र तपशील"
 
 #. module: l10n_in_hr_payroll
 #: view:hr.payroll.advice:0
 msgid "Set to Draft"
-msgstr "ड्राफ्ट के लिए सेट करें"
+msgstr "मसुद्यावर सेट करा"
 
 #. module: l10n_in_hr_payroll
 #: report:payroll.advice:0
 msgid "to"
-msgstr ""
+msgstr "ते"
 
 #. module: l10n_in_hr_payroll
 #: report:payroll.advice:0
 msgid "Total :"
-msgstr "कुल:"
+msgstr "एकूण:"
 
 #. module: l10n_in_hr_payroll
 #: field:hr.payslip.run,available_advice:0
 msgid "Made Payment Advice?"
-msgstr ""
+msgstr "केली भरणा सल्ला"
 
 #. module: l10n_in_hr_payroll
 #: view:payment.advice.report:0
 msgid "Advices which are paid using NEFT transfer"
-msgstr ""
+msgstr "एनईएफटी स्थानांतरणाचा वापर करून देय असलेल्या सूचना"
 
 #. module: l10n_in_hr_payroll
 #: field:payslip.report,nbr:0
 msgid "# Payslip lines"
-msgstr ""
+msgstr "पेझलिप रेषा"
 
 #. module: l10n_in_hr_payroll
 #: help:hr.contract,tds:0
